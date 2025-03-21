@@ -1,3 +1,3 @@
-# asir
+# ASIR-FHW
 
-Scripts para crear vpc, ec2 y rds en AWS.
+Scripts para crear vpc, ec2 ubuntu y rds en AWS, tanto en Bash como en PowerShell.

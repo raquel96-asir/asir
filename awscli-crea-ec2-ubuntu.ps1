@@ -1,5 +1,5 @@
 #=================
-# Paco Cuadrado fcuadradoa01@educantabria.es
+# Raquel Rodriguez
 # v1.0 - 2025-03-18
 # Descripción: Crea una instancia EC2 basada en Ubuntu en el VPC y subred dadas como parametros
 # Powershell version: 5.1
@@ -50,7 +50,7 @@ aws ec2 authorize-security-group-ingress `
     --cidr 0.0.0.0/0 `
     --output text
 
-# configuro la preinstalación del EC2 con instalcion de Apache
+# Configuro la preinstalación del EC2 con instalacion de Apache
 Write-Host "==20: Instalo apache"
 $userData = @"
 #!/bin/bash
